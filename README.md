@@ -13,3 +13,15 @@ Usage:
   Expect errors in the cmake process. Please run the catkin make command again. The errors should not occur the second time
   
   $ catkin_make
+
+3. Connect your computer to the Parrot Drone's wifi Access Point.
+
+4. Souce your catkin workspace 
+
+  $ source devel/setup.bash
+  
+5. Run the bebop driver
+
+  $ roslaunch bebop_driver bebop_node.launch 
+  
+  If launched successfully you should be able to see the ROS info messages coming out on command shell 
