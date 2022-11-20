@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sanket/workspace_catkin/bebop_ws/src/bebop_autonomy/bebop_driver/cmake-build-debug/devel/setup.sh
