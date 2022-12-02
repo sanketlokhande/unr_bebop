@@ -2,6 +2,7 @@
 ROS Noetic Ubuntu 20.02 Parrot Bebop Driver
 
 Install dependency: $ sudo apt-get install libavahi-client-dev
+
                     $ sudo ln -s /usr/bin/python3 /usr/bin/python
 
 Usage:
