@@ -16,7 +16,8 @@ Usage:
   
   Expect errors in the cmake process. Please run the catkin make command again. The errors should not occur the second time
   
-  $ catkin_make
+  $ catkin_make #continue with this until the errors are gone
+  $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<path_to_your_catkin_ws>/devel/lib/parrot_arsdk
 
 3. Connect your computer to the Parrot Drone's wifi Access Point.
 
